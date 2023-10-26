@@ -68,7 +68,7 @@ function create_schools_post_type() {
             'name' => 'Schools',
             'singular_name' => 'School',
         ),
-        'public' => false, // Set to false to hide it from the WordPress API
+        'public' => false, // Setting to false to hide it from the WordPress API
         'show_ui' => true, // Show in the admin interface
         'supports' => array('title'),
     );
